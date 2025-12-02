@@ -8,6 +8,12 @@
   "icon": "calendar",
   "description": "A block to display the current copyright year.",
   "example": {},
+  "attributes": {
+    "startingYear": {
+      "type": "string",
+      "default": "2000"
+    }
+  },
   "supports": {
     "html": false
   },
