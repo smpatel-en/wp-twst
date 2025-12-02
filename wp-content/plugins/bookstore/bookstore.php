@@ -27,6 +27,7 @@ function bookstore_register_book_post_type()
         "public" => true,
         "has_archive" => true,
         "show_in_rest" => true,
+        "rest_base" => "books",
         "supports" => [
             "title",
             "editor",
@@ -86,6 +87,33 @@ function bookstore_register_author_taxonomy()
     register_taxonomy("author", "book", $args);
 }
 
+// Admin Menu
+add_action("admin_menu", "bookstore_add_admin_menu");
+function bookstore_add_admin_menu()
+{
+    add_submenu_page(
+        "edit.php?post_type=book",
+        "Book List",
+        "Book List",
+        "edit_posts",
+        "book-list",
+        "bookstore_render_booklist",
+    );
+}
+
+function bookstore_render_booklist()
+{
+    ?>
+    <div class="wrap">
+        <h1>Actions</h1>
+        <button id="bookstore-load-books">Load Books</button>
+        <button id="bookstore-fetch-books">Fetch Books</button>
+        <h2>Books</h2>
+        <textarea id="bookstore-bookslist" cols="130" rows="20"></textarea>
+    </div>
+    <?php
+}
+
 add_filter("postmeta_form_keys", "bookstore_add_isbn_to_quick_edit", 10, 2);
 function bookstore_add_isbn_to_quick_edit($keys, $post)
 {
@@ -112,5 +140,18 @@ function bookstore_enqueue_scripts()
     wp_enqueue_script(
         "bookstore-scripts",
         plugin_dir_url(__FILE__) . "bookstore-scripts.js",
+    );
+}
+
+// Admin Scripts
+add_action("admin_enqueue_scripts", "bookstore_admin_enqueue_scripts");
+function bookstore_admin_enqueue_scripts()
+{
+    wp_enqueue_script(
+        "bookstore-admin-scripts",
+        plugin_dir_url(__FILE__) . "admin_bookstore.js",
+        ["wp-api", "wp-api-fetch"],
+        "1.0.0",
+        true,
     );
 }
