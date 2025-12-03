@@ -9,6 +9,7 @@ if (!defined("ABSPATH")) {
     exit();
 }
 
+// Register Book Post Type
 add_action("init", "bookstore_register_book_post_type");
 function bookstore_register_book_post_type()
 {
@@ -43,6 +44,7 @@ function bookstore_register_book_post_type()
 
     register_post_type("book", $args);
 
+    // Register ISBN Meta Field
     register_meta("post", "isbn", [
         "single" => true,
         "type" => "string",
@@ -52,14 +54,17 @@ function bookstore_register_book_post_type()
     ]);
 }
 
-// Custom Rest Fields
+// Register Custom Rest Fields
 add_action("rest_api_init", "bookstore_add_rest_fields");
 function bookstore_add_rest_fields()
 {
     register_rest_field("book", "isbn2", [
         "get_callback" => "bookstore_get_isbn",
         "update_callback" => "bookstore_update_isbn",
-        "schema" => null,
+        "schema" => [
+            "description" => "The ISBN of the book",
+            "type" => "string",
+        ],
     ]);
 }
 
@@ -73,6 +78,7 @@ function bookstore_update_isbn($value, $book)
     return update_post_meta($book->ID, "isbn2", $value);
 }
 
+// Add ISBN to Quick Edit
 add_filter("postmeta_form_keys", "bookstore_add_isbn_to_quick_edit", 10, 2);
 function bookstore_add_isbn_to_quick_edit($keys, $post)
 {
@@ -82,6 +88,7 @@ function bookstore_add_isbn_to_quick_edit($keys, $post)
     return $keys;
 }
 
+// Register Genre Taxonomy
 add_action("init", "bookstore_register_genre_taxonomy");
 function bookstore_register_genre_taxonomy()
 {
@@ -105,6 +112,7 @@ function bookstore_register_genre_taxonomy()
     register_taxonomy("genre", "book", $args);
 }
 
+// Register Author Taxonomy
 add_action("init", "bookstore_register_author_taxonomy");
 function bookstore_register_author_taxonomy()
 {
