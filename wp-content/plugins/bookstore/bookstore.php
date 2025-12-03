@@ -52,6 +52,27 @@ function bookstore_register_book_post_type()
     ]);
 }
 
+// Custom Rest Fields
+add_action("rest_api_init", "bookstore_add_rest_fields");
+function bookstore_add_rest_fields()
+{
+    register_rest_field("book", "isbn2", [
+        "get_callback" => "bookstore_get_isbn",
+        "update_callback" => "bookstore_update_isbn",
+        "schema" => null,
+    ]);
+}
+
+function bookstore_get_isbn($book)
+{
+    return get_post_meta($book["id"], "isbn2", true);
+}
+
+function bookstore_update_isbn($value, $book)
+{
+    return update_post_meta($book->ID, "isbn2", $value);
+}
+
 add_filter("postmeta_form_keys", "bookstore_add_isbn_to_quick_edit", 10, 2);
 function bookstore_add_isbn_to_quick_edit($keys, $post)
 {
@@ -180,25 +201,4 @@ function bookstore_admin_enqueue_scripts()
         "1.0.0",
         true,
     );
-}
-
-// Custom Rest Fields
-add_action("rest_api_init", "bookstore_add_rest_fields");
-function bookstore_add_rest_fields()
-{
-    register_rest_field("book", "isbn2", [
-        "get_callback" => "bookstore_get_isbn",
-        "update_callback" => "bookstore_update_isbn",
-        "schema" => null,
-    ]);
-}
-
-function bookstore_get_isbn($book)
-{
-    return get_post_meta($book["id"], "isbn2", true);
-}
-
-function bookstore_update_isbn($value, $book)
-{
-    return update_post_meta($book->ID, "isbn2", $value);
 }
