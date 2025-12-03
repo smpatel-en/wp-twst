@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Bookstore
  * Description: A plugin to manage books
- * Version: 1.0
+ * Version: 1.0.1
  */
 
 if (!defined("ABSPATH")) {
@@ -42,6 +42,23 @@ function bookstore_register_book_post_type()
     ];
 
     register_post_type("book", $args);
+
+    register_meta("post", "isbn", [
+        "single" => true,
+        "type" => "string",
+        "default" => "",
+        "show_in_rest" => true,
+        "object_subtype" => "book",
+    ]);
+}
+
+add_filter("postmeta_form_keys", "bookstore_add_isbn_to_quick_edit", 10, 2);
+function bookstore_add_isbn_to_quick_edit($keys, $post)
+{
+    if ($post->post_type === "book") {
+        $keys[] = "isbn";
+    }
+    return $keys;
 }
 
 add_action("init", "bookstore_register_genre_taxonomy");
@@ -113,16 +130,23 @@ function bookstore_render_booklist()
         <h2>Books</h2>
         <textarea id="bookstore-bookslist" cols="130" rows="20"></textarea>
     </div>
+    <div style="width:50%;">
+        <h2>Books</h2>
+        <form action="">
+            <div>
+                <label for="bookstore-book-title">Book Title</label>
+                <input type="text" id="bookstore-book-title" placeholder="Title">
+            </div>
+            <div>
+                <label for="bookstore-book-content">Book Content</label>
+                <textarea id="bookstore-book-content" cols="100" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="button" id="bookstore-submit-book" value="Add">
+            </div>
+        </form>
+    </div>
     <?php
-}
-
-add_filter("postmeta_form_keys", "bookstore_add_isbn_to_quick_edit", 10, 2);
-function bookstore_add_isbn_to_quick_edit($keys, $post)
-{
-    if ($post->post_type === "book") {
-        $keys[] = "isbn";
-    }
-    return $keys;
 }
 
 // Styles
@@ -156,4 +180,24 @@ function bookstore_admin_enqueue_scripts()
         "1.0.0",
         true,
     );
+}
+
+add_action("rest_api_init", "bookstore_add_rest_fields");
+function bookstore_add_rest_fields()
+{
+    register_rest_field("book", "isbn", [
+        "get_callback" => "bookstore_get_isbn",
+        "update_callback" => "bookstore_update_isbn",
+        "schema" => null,
+    ]);
+}
+
+function bookstore_get_isbn($book)
+{
+    return get_post_meta($book["id"], "isbn", true);
+}
+
+function bookstore_update_isbn($value, $book)
+{
+    return update_post_meta($book["id"], "isbn", $value);
 }

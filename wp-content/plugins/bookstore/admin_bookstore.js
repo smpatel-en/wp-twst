@@ -26,3 +26,20 @@ if (fetchBooksButton) {
     });
   });
 }
+
+function handleSubmitBook() {
+  const title = document.getElementById("bookstore-book-title").value;
+  const content = document.getElementById("bookstore-book-content").value;
+  wp.apiFetch({
+    path: "/wp/v2/books",
+    method: "POST",
+    data: { title, content, status: "publish" },
+  }).then((book) => {
+    alert("Book added successfully");
+  });
+}
+
+const submitBookButton = document.getElementById("bookstore-submit-book");
+if (submitBookButton) {
+  submitBookButton.addEventListener("click", handleSubmitBook);
+}
