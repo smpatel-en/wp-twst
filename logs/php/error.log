@@ -1,0 +1,483 @@
+[01-Dec-2025 07:18:56 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Dec-2025 08:06:45 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:47 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\update.php(16): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:50 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugin-install.php(16): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:51 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:51 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:51 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugin-install.php(16): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\update.php(16): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugin-install.php(16): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\index.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:54 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\site-editor.php(12): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:06:58 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\index.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:07:05 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\site-editor.php(12): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:07:07 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:07:08 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:07:08 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\themes.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:07:08 UTC] PHP Fatal error:  Uncaught Error: Class "Gutenbricks\Bricks_Bridge" not found in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php:143
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(324): Gutenbricks_Admin->enqueue_gb_builder_scripts('')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-config.php(103): require_once('C:\\Users\\EnactO...')
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-load.php(50): require_once('C:\\Users\\EnactO...')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\EnactO...')
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\EnactO...')
+#8 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\gutenbricks\admin\class-gutenbricks-admin.php on line 143
+[01-Dec-2025 08:07:30 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Dec-2025 09:19:13 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Dec-2025 09:27:09 UTC] PHP Parse error:  syntax error, unexpected token "[", expecting "(" in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 16
+[01-Dec-2025 10:17:59 UTC] PHP Parse error:  syntax error, unexpected token "(", expecting variable in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 77
+[03-Dec-2025 05:46:58 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[03-Dec-2025 08:10:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('24', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 08:10:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('24', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 08:10:57 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('24234', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 08:12:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bookstore_add_rest_fields" not found or invalid function name in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php:341
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(636): do_action('rest_api_init', Object(WP_REST_Server))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(460): rest_get_server()
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#12 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php on line 341
+[03-Dec-2025 08:12:48 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bookstore_add_rest_fields" not found or invalid function name in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php:341
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(636): do_action('rest_api_init', Object(WP_REST_Server))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(460): rest_get_server()
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#12 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php on line 341
+[03-Dec-2025 08:13:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bookstore_add_rest_fields" not found or invalid function name in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php:341
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(636): do_action('rest_api_init', Object(WP_REST_Server))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(460): rest_get_server()
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#12 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php on line 341
+[03-Dec-2025 08:13:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bookstore_add_rest_fields" not found or invalid function name in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php:341
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(636): do_action('rest_api_init', Object(WP_REST_Server))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(460): rest_get_server()
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#12 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php on line 341
+[03-Dec-2025 08:13:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "bookstore_add_rest_fields" not found or invalid function name in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php:341
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(636): do_action('rest_api_init', Object(WP_REST_Server))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(460): rest_get_server()
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#12 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php on line 341
+[03-Dec-2025 08:30:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('999', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 08:30:18 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('999', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 08:30:50 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('999', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 08:32:25 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('999', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 08:34:35 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 197
+[03-Dec-2025 08:35:16 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 197
+[03-Dec-2025 08:35:26 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 197
+[03-Dec-2025 08:36:47 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:202
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('999', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 202
+[03-Dec-2025 09:04:08 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php:203
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-controller.php(474): bookstore_update_isbn('999', Object(WP_Post), 'isbn', Object(WP_REST_Request), 'book')
+#1 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(844): WP_REST_Controller->update_additional_fields_for_object(Object(WP_Post), Object(WP_REST_Request))
+#2 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#3 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/books', Array, NULL)
+#4 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/wp/v2/books')
+#6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#7 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#8 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#9 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#10 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#11 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\functions.php(1343): WP->main('')
+#12 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php(16): wp()
+#13 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
+#14 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 203
+[03-Dec-2025 09:04:29 UTC] PHP Warning:  Attempt to read property "ID" on array in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-content\plugins\bookstore\bookstore.php on line 198
+[03-Dec-2025 12:32:04 UTC] PHP Warning:  require(C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-blog-header.phW): Failed to open stream: No such file or directory in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php on line 17
+[03-Dec-2025 12:32:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-blog-header.phW' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php on line 17
+[03-Dec-2025 12:32:06 UTC] PHP Warning:  require(C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-blog-header.phW): Failed to open stream: No such file or directory in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php on line 17
+[03-Dec-2025 12:32:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-blog-header.phW' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php on line 17
+[03-Dec-2025 12:32:06 UTC] PHP Warning:  require(C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-blog-header.phW): Failed to open stream: No such file or directory in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php on line 17
+[03-Dec-2025 12:32:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-blog-header.phW' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php on line 17
+[03-Dec-2025 12:32:50 UTC] PHP Warning:  require_once(C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-loa.php): Failed to open stream: No such file or directory in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php on line 12
+[03-Dec-2025 12:32:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-loa.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php:12
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require()
+#1 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php on line 12
+[03-Dec-2025 12:32:50 UTC] PHP Warning:  require_once(C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-loa.php): Failed to open stream: No such file or directory in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php on line 12
+[03-Dec-2025 12:32:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public/wp-loa.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php:12
+Stack trace:
+#0 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require()
+#1 {main}
+  thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-blog-header.php on line 12

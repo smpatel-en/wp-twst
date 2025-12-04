@@ -96,3 +96,5 @@ Stack trace:
 #6 C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\index.php(17): require('C:\\Users\\EnactO...')
 #7 {main}
   thrown in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wp-hook.php on line 341
+[04-Dec-2025 05:05:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wpdb.php on line 1994
+[04-Dec-2025 05:07:10 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\EnactOn Tecnologies\Local Sites\the-wordpress-site\app\public\wp-includes\class-wpdb.php on line 1994
